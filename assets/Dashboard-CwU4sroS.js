@@ -1,0 +1,4 @@
+import{_ as p,u as g,m as f,i as r,A as v,H as c,o as s,c as a,a as e,F as i,t as x,d as b,b as d,w,v as k,g as C}from"./index-C-vBp--N.js";const y={class:"main-panel"},B={class:"menus"},D=["onClick"],N={style:{padding:"30px",width:"100%"}},V={class:"title"},A={__name:"Dashboard",setup(F){const o=g();f();const _=r("message");r("axios"),v();let l=[{name:"文章管理",href:"/dashboard/article"},{name:"分类管理",href:"/dashboard/category"},{name:"退出",href:"/logout"}];const u=t=>{t.href=="/logout"?(_.success("退出成功"),o.push("/login")):o.push(t.href)};return(t,R)=>{const h=c("router-view"),m=c("n-gradient-text");return s(),a(i,null,[e("div",y,[e("div",B,[(s(!0),a(i,null,x(b(l),(n,S)=>(s(),a("div",{onClick:j=>u(n)},k(n.name),9,D))),256))]),e("div",N,[d(h)])]),e("div",V,[d(m,{gradient:`{\r
+      from: 'rgb(20, 20, 20)',\r
+      to: 'rgb(125, 135, 150)',\r
+    }`},{default:w(()=>[C(" 后台管理 ")]),_:1})])],64)}}},H=p(A,[["__scopeId","data-v-a8a07300"]]);export{H as default};
